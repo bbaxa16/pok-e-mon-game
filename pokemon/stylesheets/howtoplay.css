@@ -1,0 +1,40 @@
+body {
+  background-image: url('../img/howtoplay.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.header{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: grey;
+  border-radius: 3%;
+  margin: 0 10%;
+  width: 80%;
+}
+.header ul li{
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.header a:hover {
+  color: black;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+h3 {
+  font-family: sans-serif;
+}
+.container ul li {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding: 1%;
+}

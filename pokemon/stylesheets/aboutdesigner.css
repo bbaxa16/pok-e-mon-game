@@ -1,0 +1,65 @@
+body {
+  background-image: url('../img/aboutbackground.jpg');
+  overflow: hidden;
+}
+.header{
+  color: white;
+  text-align: center;
+  background-color: grey;
+  border-radius: 3%;
+  margin: 0 10%;
+  width: 80%;
+
+
+}
+
+.header ul li{
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.header a:hover {
+  color: black;
+}
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+video {
+  border-radius: 3%;
+  border: 2px solid darkgrey;
+  margin-left: 25%;
+
+}
+p {
+  width: 40%;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: 25px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 5%;
+  margin-left: 25%;
+
+}
+#footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  height: 10vh;
+  width: 100vw;
+}
+img {
+  width: 75px;
+  height: 75px;
+}
